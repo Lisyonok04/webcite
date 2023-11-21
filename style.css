@@ -1,0 +1,178 @@
+body{
+    background-image: linear-gradient(
+      to bottom,
+      rgba(26, 153, 100, 0.35),
+      rgba(0, 255, 153, 0.5)
+    ),url("фон для сайта.jpg");
+    color: #80dbb2;
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  
+  .flex-item-intro { 
+    text-align: justify;
+    flex-basis: 60%;
+    margin:1.85% 0.9%;
+    box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+    background-color:rgb(3, 124, 75);
+    border-radius: 10px;
+    padding: 1.85%;
+    font-size: 1em;
+    transition: background-color 0.4s 0.4s;
+  }
+  
+  
+  .flex-item-intro p{
+    margin: 2%;
+  }
+  
+  .flex-item-img { 
+    text-align: center;
+    flex-basis: 40%;
+    margin:0.27%;
+    }
+      .flex-item-vk {
+        text-align: right;
+        margin:1%;
+        flex-basis: 33%;
+        color: #1a3c2d;
+       }
+      .flex-item-tg { 
+        text-align: center;
+        margin:1%;
+        flex-basis: 33%;
+        color: #1a3c2d;
+        }
+      
+      .flex-item-git{
+        text-align: left;
+        margin:1%;
+        flex-basis: 33%;
+        color: #1a3c2d;
+        }
+  
+    h1{
+      padding: 0 1.85%;
+      font-size: 2em;
+      font-family: "Monotype Corsiva";
+    }
+  
+    h2{
+      text-align: center;
+      margin: 0.2% 0 0 0;
+      font-size: 1.25em;
+    }
+  
+    img.avatar{
+      width:60%;
+      border-radius: 0%;
+    }
+    
+    .describ{
+      color: #1a3c2d;
+    }
+
+    .footer-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .main-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav-flex{
+      width: 30%;
+      margin-right: 1.85%;
+      margin-left: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 0.46% 1%;
+      transition: background-color 0.4s 0.4s;
+      font-family: "Monotype Corsiva";
+      font-size : 1em;
+      font-weight: bold;
+    }
+    
+    .nav-flex:hover{
+      background-color: rgb(24, 181, 150);
+    }
+    
+    div.blog_page{
+      flex-basis: 50%;
+      text-align: center;
+      padding: 3% 0%;
+    }
+  
+    div.blog_page a{
+      margin:1.85% 1.38%;
+      text-decoration: none;
+      color:inherit;
+      font-size: 1em;
+    }
+  
+    footer{
+        box-shadow:inset 0px 0px 20px 15px rgba(1, 64, 45, 0.3);
+        background-color:rgba(3, 124, 75, 0.3);
+        border-radius: 10px;
+        width: 25%;
+        margin-left: auto;
+        margin-right: right;
+        margin-top: 3%;
+        margin-bottom: 1%;
+        transition: background-color 0.4s 0.4s;
+        font-family: "Monotype Corsiva";
+      }
+    
+    footer:hover{
+      background-color: rgb(24, 181, 150);
+    }
+  
+    header{
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      margin-bottom:4%;
+      margin-top: 2%;
+      padding: 0.95% 0;;
+      transition: background-color 0.4s 0.4s;
+      font-family: "Monotype Corsiva";
+    }
+    
+  
+    img{
+      margin:0 0.46%;
+      font-size: 0.85em;
+    }
+  
+    .social-name{
+      margin: 1%;
+      font-size: 0.85em;
+    }
+    
+    .no-trasparent-anim {
+      transition: background-color 0.4s 0.4s;
+    }
+    
+  
+    ::selection {
+      color: white;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  
+    pre{
+      font-size : 1.5em;
+      font-weight: bold;
+      margin:0;
+    }
+    p{
+      font-family: "Monotype Corsiva";
+      font-size : 1.3em;
+      font-weight: bold;
+    }

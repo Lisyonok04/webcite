@@ -1,0 +1,284 @@
+body{
+    background-image: linear-gradient(
+    to bottom,
+    rgba(26, 153, 100, 0.35),
+    rgba(0, 255, 153, 0.5)
+    ),url("фон для сайта.jpg");
+    color: #80dbb2;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas:
+          "empty nav"
+          "header header"
+          "plot plot"
+          "intro intro"
+          "elem1 elem2"
+          "elem3 elem4"
+          "elem5 elem6"
+          "elem7 elem8"
+          "elem9 elem10"
+          "end end"
+          "footer footer"
+          ;
+  }
+  
+  .empty{
+    grid-area: empty;
+  }
+  
+  .flex-item-intro { 
+    text-align: justify;
+    flex-basis: 60%;
+    margin:1.85% 0.9%;
+    box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+    background-color:rgb(3, 124, 75);
+    border-radius: 10px;
+    padding: 1.85%;
+    font-size: 1em;
+    transition: background-color 0.4s 0.4s;
+  }
+  
+  .flex-item-intro:hover{
+    background-color: rgba(252, 170, 62, 0.8);
+  }
+  
+  .flex-item-intro p{
+    margin: 2%;
+  }
+  
+  .flex-item-img { 
+    text-align: center;
+    flex-basis: 40%;
+    margin:0.27%;
+    }
+  .flex-item-vk {
+    text-align: right;
+    margin:1%;
+    flex-basis: 33%;
+   }
+  .flex-item-tg { 
+    text-align: center;
+    margin:1%;
+    flex-basis: 33%;
+    }
+  
+    .flex-item-git{
+      text-align: left;
+    margin:1%;
+    flex-basis: 33%;
+    }
+  
+    h1{
+      text-align: center;
+      padding: 0 1.85%;
+      font-size: 2em;
+    }
+  
+    h2{
+      padding: 0.5% 1.85%;
+      color:rgb(11, 126, 92);
+      margin: 0.2% 0 0 0;
+      font-size: 1.25em;
+    }
+  
+    .footer-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .main-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav-flex{
+      margin-right: 1.85%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 0.46% 1%;
+      transition: background-color 0.4s 0.4s;
+      font-family: "Monotype Corsiva";
+      font-size : 1em;
+      font-weight: bold;
+      grid-area: nav;
+    }
+    
+    .nav-flex:hover{
+      background-color: rgb(24, 181, 150);
+    }
+    
+    div.blog_page{
+      flex-basis: 50%;
+      text-align: center;
+      padding: 3% 0%;
+    }
+  
+    div.blog_page a{
+      margin:1.85% 1.38%;
+      text-decoration: none;
+      color:inherit;
+      font-size: 1em;
+    }
+  
+    footer{
+      box-shadow:inset 0px 0px 20px 15px rgba(1, 64, 45, 0.3);
+      background-color:rgba(3, 124, 75, 0.3);
+      border-radius: 10px;
+      width: 25%;
+      margin-left: auto;
+      margin-right: right;
+      margin-top: 3%;
+      margin-bottom: 1%;
+      transition: background-color 0.4s 0.4s;
+      font-family: "Monotype Corsiva";
+      grid-area: footer;
+    }
+    
+    footer:hover{
+      background-color: rgb(24, 181, 150);
+    }
+  
+    header{
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      margin-bottom:4%;
+      margin-top: 2%;
+      padding: 0.95% 0;;
+      transition: background-color 0.4s 0.4s;
+      grid-area: header;
+      font-family: "Monotype Corsiva";
+    }
+    
+    header:hover{
+      background-color: rgba(62, 252, 182, 0.8);
+    }
+  
+    img{
+      margin:0 0.46%;
+      font-size: 0.85em;
+    }
+  
+    .social-name{
+      margin: 0.5%;
+      font-size: 0.85em;
+    }
+    
+  
+  
+    ::selection {
+      color: white;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  
+    .photo-label{
+      text-align: center;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 2% 1%;
+      transition: background-color 0.4s 0.4s;
+      margin:2%;    
+    }
+  
+  
+    .elem-1{
+      grid-area: elem1;
+    }
+    .elem-2{
+      grid-area: elem2;
+    }
+    .elem-3{
+      grid-area: elem3;
+    }
+    .elem-4{
+      grid-area: elem4;
+    }
+    .elem-5{
+      grid-area: elem5;
+    }
+    .elem-6{
+      grid-area: elem6;
+    }
+    .elem-7{
+        grid-area: elem7;
+    }
+    .elem-8{
+        grid-area: elem8;
+    }
+    .elem-9{
+        grid-area: elem9;
+    }
+    .elem-10{
+      width:80%;
+      grid-area: elem10;
+    }
+  
+    .untamed_intro{
+      width:80%;
+      text-align: center;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 3% 1%;
+      transition: background-color 0.4s 0.4s;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      font-size : 1.2em;
+      font-family: "Monotype Corsiva";
+      font-weight: bold;
+      grid-area: intro;
+    }
+
+    .untamed_plot{
+      width:80%;
+      text-align: center;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 3% 1%;
+      transition: background-color 0.4s 0.4s;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      font-size : 1.2em;
+      font-family: "Monotype Corsiva";
+      font-weight: bold;
+      grid-area: plot;
+    }
+    .untamed_end{
+      width:80%;
+      text-align: center;
+      box-shadow:inset 0px 0px 20px 15px rgb(1, 64, 45);
+      background-color:rgb(3, 124, 75);
+      border-radius: 10px;
+      padding: 3% 1%;
+      transition: background-color 0.4s 0.4s;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      font-size : 1.2em;
+      font-family: "Monotype Corsiva";
+      font-weight: bold;
+      grid-area: end;
+    }
+
+
+
+    .main-grid-elem{
+        text-align: center;
+    }
+
+    .gallery-photo{
+        border-radius: 50px;
+        width:70%;
+        margin:10px;
+    }
